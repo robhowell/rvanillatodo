@@ -1,4 +1,6 @@
-# Vanilla ES + R • [TodoMVC](http://todomvc.com)
+# rvanillatodo
+
+Vanilla JS [TodoMVC](http://todomvc.com) + R.js
 
 > A port of the [Vanilla JS Example](http://todomvc.com/examples/vanillajs/), but translated into ES using R framework, a very simple and small "fremawork" for building user interfaces.
 
@@ -15,6 +17,10 @@ cd todomvc/examples/vanilla-es6
 npm install
 ```
 
+======
+
 ## Credit
 
 Created by [@dosyago-coder-0] (https://github.com/dosyago-coder-0)
+
+=======
