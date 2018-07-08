@@ -9,18 +9,8 @@ Vanilla JS [TodoMVC](http://todomvc.com) + R.js
 - [ES6 Features](https://github.com/lukehoban/es6features)
 - [Learning Resources](https://github.com/ericdouglas/ES6-Learning)
 
-## Installation
-
-To get started with this example, navigate into the example folder and install the NPM modules.
-```bash
-cd todomvc/examples/vanilla-es6
-npm install
-```
-
-======
 
 ## Credit
 
-Created by [@dosyago-coder-0] (https://github.com/dosyago-coder-0)
+Created by [@dosyago-coder-0](https://github.com/dosyago-coder-0)
 
-=======
