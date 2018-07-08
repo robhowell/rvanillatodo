@@ -95,7 +95,6 @@
     }
     let {str,handlers} = r;
     if ( replace ) {
-      const c = fc(str);
       root.parentElement.replaceChild(fc(str),root);
     } else {
       root.innerHTML = '';
