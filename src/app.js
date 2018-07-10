@@ -8,7 +8,6 @@
 
   function openApp() {
     render(App(), root);
-    updateList();
     addEventListener('hashchange', routeHash);
     routeHash();
   }
@@ -57,7 +56,7 @@
 
   function addTodo(todo) {
     todos.push(todo);
-    updateList();
+    routeHash();
   }
 
   function toggleCompleted(todoKey) {
@@ -78,7 +77,7 @@
   function deleteTodo(todoKey) {
     const index = todos.findIndex(({key}) => key == todoKey);
     todos.splice(index,1); 
-    updateList();
+    routeHash();
   }
 
   function saveTodo(todoKey) {
@@ -99,12 +98,12 @@
   function deleteCompleted() {
     const completed = todos.filter(({completed}) => completed);
     completed.forEach(({key}) => deleteTodo(key));
-    updateList();
+    routeHash();
   }
 
   function toggleAll({target:{checked}}) {
     todos.forEach(t => t.completed = !!checked);
-    updateList();
+    routeHash();
   }
 
   function listAll() {
@@ -155,6 +154,7 @@
 
   function routeHash() {
     const hash = location.hash;
+    console.log(hash);
     switch(location.hash) {
       case "#/active":
         listActive();
@@ -165,7 +165,6 @@
       case "#/":
       default:
         listAll();
-        break;
         break;
     }
   }
