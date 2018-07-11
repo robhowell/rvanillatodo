@@ -1,6 +1,6 @@
 # Vanilla ES + R • [TodoMVC](http://todomvc.com)
 
-> A port of the [Vanilla JS Example](http://todomvc.com/examples/vanillajs/), but translated into ES using R framework, a very simple and small "fremawork" for building user interfaces.
+> A port of the [Vanilla JS Example](http://todomvc.com/examples/vanillajs/), but translated into ES using R framework, a very simple and small "framework" for building user interfaces.
 
 ## Learning ES6
 
