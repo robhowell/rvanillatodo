@@ -134,7 +134,7 @@
   function toggleCompleted(todoKey) {
     const todo = todos.find(({key}) => key == todoKey);
     todo.completed = !!(todo.completed ^ true);
-    updateTodo(todo);
+    routeHash();
   }
 
   function editTodo(todoKey) {
